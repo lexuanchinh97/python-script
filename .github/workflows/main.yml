@@ -36,5 +36,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo "productIdTest = ${{ secrets.PRODUCT_ID }}"
+          echo "productIdTest = ${{ secrets.TEST_PRODUCT_ID }}"
           echo "productId = ${{ vars.PRODUCT_ID }}"
